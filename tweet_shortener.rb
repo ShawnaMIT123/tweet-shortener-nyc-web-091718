@@ -12,7 +12,12 @@ dictionary = {
 "and" => "&"}
 end
 
-def word_substituter(string)
+def word_substituter(tweet)
+  words = tweet.split(" ")
+  newtweet = []
+  words.each do
+end
+  
   
 end
  
