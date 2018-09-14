@@ -17,7 +17,7 @@ def word_substituter(tweet)
   words = tweet.split(" ")
   newtweet = []
   words.each do |x| 
-    if dictionary.keys.include?(x)
+    if dictionary.keys.include?(x.downcase)
       newtweet << dictionary[x]
     else
       newtweet << x
