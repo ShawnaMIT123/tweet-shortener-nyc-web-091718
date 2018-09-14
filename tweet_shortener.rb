@@ -32,5 +32,5 @@ def bulk_tweet_shortener(arraytweets)
   end
 end
 
-def 
+def selective_tweet_shortener
  
